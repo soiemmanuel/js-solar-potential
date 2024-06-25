@@ -86,7 +86,7 @@
         <SearchBar bind:location {placesLibrary} {map} initialValue={defaultPlace.name} />
       {/if}
 
-      <div class="p-4 surface-variant outline-text rounded-lg space-y-3">
+      <!--<div class="p-4 surface-variant outline-text rounded-lg space-y-3">
         <p>
           <a
             class="primary-text"
@@ -103,7 +103,7 @@
           <b>Click on an area below</b>
           to see what type of information the Solar API can provide.
         </p>
-      </div>
+      </div> -->
 
       {#if location}
         <Sections {location} {map} {geometryLibrary} {googleMapsApiKey} />
